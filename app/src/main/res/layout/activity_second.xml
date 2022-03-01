@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="生日快乐！"
+        android:paddingTop="300dp"
+        android:paddingLeft="180dp"
+        android:drawablePadding="300dp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="100dp"
+        android:background="@drawable/src_http___bpic_588ku_com_back_origin_min_pic_19_04_16_033347b223de1f18543a3cf7a051b21d_jpg__fw_750_quality_99_unsharp_true_compress_true_refer_http___bpic_588ku"/>
+</LinearLayout>

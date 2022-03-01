@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/editText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/src_http___bpic_588ku_com_back_origin_min_pic_19_04_16_033347b223de1f18543a3cf7a051b21d_jpg__fw_750_quality_99_unsharp_true_compress_true_refer_http___bpic_588ku"
+        android:padding="100dp"
+        android:drawablePadding="50dp"
+        android:hint="请输入过生日的同学的姓名"
+        android:inputType="text"
+        android:onClick="sendMessage"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="100dp"></EditText>
+
+</RelativeLayout>
